@@ -1,10 +1,4 @@
 /*  
-Taller: Implementación de las sentencias if - else.
-Realice una aplicación en C++ que le pregunte al usuario la edad de su hijo.
- Si el niño tiene entre 0 y 6 años el programa debe imprimir que el niño pertenece al grupo de la primera infancia.
-Si la edad está entre los 6 y los 12 años el programa debe imprimir que el niño pertenece al grupo de la segunda infancia;
-y en caso de que el niño tenga entre 12 y 18 años el mensaje impreso dirá que pertenece al grupo de los adolescentes.
- Siga las instrucciones de la guía de aprendizaje 3
 
 
   */
@@ -12,10 +6,10 @@ y en caso de que el niño tenga entre 12 y 18 años el mensaje impreso dirá que pe
 
 #include <iostream>
 #include <conio.h>
-// se incluye la librería iostream que maneja los flujos de entrada/salida
+// se incluye la librerÃ­a iostream que maneja los flujos de entrada/salida
 using namespace std;
 //se usa el espacio de nombre std para evitar confusiones en los nombres
-int main() //la función principal
+int main() //la funciÃ³n principal
 {
  float n1,n2,n3,n4,prom,n; //se declaran las variables
  char nombre[23];
@@ -67,7 +61,7 @@ if (prom<5 && prom>0)
 {
 if (prom>=3 && prom<=3.5)
  {
- 	cout << " En este momento no tiene aprobada la materia de tecnología, pero tiene la oportunidad de recuperar.\n"<<prom<<endl; 
+ 	cout << " En este momento no tiene aprobada la materia de tecnologÃ­a, pero tiene la oportunidad de recuperar.\n"<<prom<<endl; 
 }
  else 
  {
